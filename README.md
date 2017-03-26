@@ -3,7 +3,7 @@
 git clone https://github.com/YoungKwonJo/chartjs_example.git
 cd chartjs_example
 
-npm init
+npm install
 node web.js
 
 in firefox
