@@ -5,10 +5,11 @@ module.exports = function(callback){
 
   axios.get('/data/test.json').
   then(function (res){
-    return res;
+    if (typeof callback === "function") { callback(res); }
   })
   .catch(function (err){
-    return err;
+    if (typeof callback === "function") { callback(err); }
+  })
   });
   */
 
