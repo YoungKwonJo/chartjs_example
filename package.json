@@ -1,0 +1,21 @@
+{
+  "name": "chartjs_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "chart.js": "^2.5.0",
+    "chartjs": "^0.3.24",
+    "express": "^4.15.2",
+    "jade": "^1.11.0",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.11"
+  }
+}

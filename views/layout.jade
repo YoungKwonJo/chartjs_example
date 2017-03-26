@@ -1,0 +1,19 @@
+DOCTYPE(html)
+html
+  head
+    title weather openweathermap test
+    script(type="text/javascript", src="/scripts/moment.js")
+    script(type="text/javascript", src="/scripts/moment-timezone.js")
+    script(type="text/javascript", src="/scripts/chart.js")
+
+  body
+    div
+      h3 온도 예상
+      canvas(id="myChart" width="400" height="200")
+
+    script(type="text/javascript").
+      var plot= !{JSON.stringify(plot)};
+      var plot_ = JSON.parse(JSON.stringify(plot));
+     
+      var ctx = document.getElementById("myChart").getContext("2d");
+      var myChart = new Chart(ctx, plot_);
